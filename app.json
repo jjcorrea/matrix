@@ -1,7 +1,7 @@
 {
   "name": "Matrix",
   "description": "Matrix produces a virtual office for remote teams. In this project, you can run a virtual office to simulate the physical environment",
-  "repository": "https://github.com/ResultadosDigitais/matrix",
+  "repository": "https://github.com/jjcorrea/matrix",
   "keywords": ["online workspace", "virtual office", "remote teams"],
   "stack": "container",
   "env": {
@@ -32,6 +32,14 @@
     "ENFORCE_SSL": {
       "description": "If you running in HTTPS this variable forces redirect to HTTPS when user access with HTTP",
       "value": "true"
+    },
+    "ROOMS_SOURCE": {
+      "description": "remote or environment",
+      "value": "REMOTE"
+    },
+    "ROOMS_DATA": {
+      "description": "Room config",
+      "value": "https://URL"
     }
   }
 }
