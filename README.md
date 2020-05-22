@@ -15,7 +15,9 @@ The objective of **#matrix** project is to provide a virtual office environment 
 
 When working remotely there is less interaction with other members of your team like in a physical office. The **#matrix** project was born as a proposal to improve that experience. The idea is to allow you to create several virtual rooms mimicking the real world where people can _enter_ an room.
 
-**#matrix** creates a virtual office for remote teams. Read more on [this post in Medium](https://medium.com/rd-shipit/matrix-d4cfc4ad4c75).
+**#matrix** creates a virtual office for remote teams. Read more on [this post in Medium](https://medium.com/rd-shipit
+
+-d4cfc4ad4c75).
 
 ![Matrix Home Screenshot](docs/img/matrix-morpheus.png)
 
@@ -159,7 +161,7 @@ If you want run the **#matrix**, you need [docker-compose](https://docs.docker.c
 
 If you prefer, you can run **#matrix** on GCP:
 
-<a href="https://deploy.cloud.run?git_repo=https://github.com/ResultadosDigitais/matrix">
+<a href="https://deploy.cloud.run?git_repo=https://github.com/jjcorrea/matrix">
 <img alt="Run on Google Cloud" src="https://deploy.cloud.run/button.svg" style="max-width:200px"  />
 </a>
 
